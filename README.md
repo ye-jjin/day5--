@@ -13,11 +13,11 @@
 | src 폴더 | img, html, css, javascript 파일을 저장하는 공간 |
 | pom.xml | 라이브러리 다운을 받기 위한 설정 공간 |
 
-<br>
-<br>
-
 - Maven은 라이브러리를 관리하고 프로젝트를 빌드하는 도구입니다.
 - 사용하는 라이브러리가 많아질수록 관리의 필요성이 생기는데, Maven 프로젝트에서는 특정 문서(pom.xml)에 사용할 라이브러리 정의하면 네트워크를 통해 자동으로 다운 받아 줍니다.
+
+<br>
+<br>
 
 2. 자바 클래스 구성
 
@@ -188,6 +188,9 @@ public class PeopleDao {
 }
 ```
 
+<br>
+<br>
+
 - PeopleVo.java
 
 ```java
@@ -242,6 +245,9 @@ public class PeopleVo {
 	
 }
 ```
+
+<br>
+<br>
 
 - ReadBuffer.java
 
@@ -321,6 +327,9 @@ public class ReadBuffer {
 }
 ```
 
+<br>
+<br>
+
 - DBMS(Oracle) Table
 
 ```java
@@ -337,6 +346,9 @@ create table tbl_people(
     job varchar2(20) not null
 );
 ```
+
+<br>
+<br>
 
 2. 수행 결과
 - csv file
