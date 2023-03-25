@@ -7,6 +7,8 @@
 
 <img src="https://user-images.githubusercontent.com/122597068/227713046-75e7ecfd-693c-4ee6-a6c5-f9515e87183f.png" width="50%" height="300">
 
+<br>
+<br>
 
 | 프로젝트 구조 | 설명 |
 | --- | --- |
@@ -39,6 +41,8 @@
 
 <img src="https://user-images.githubusercontent.com/122597068/227713069-3ab4ab0e-c897-4b74-ae02-422cbd8721a6.png" width="70%" height="300">
 
+<br>
+<br>
 
 1. JDBC란?
 - Java Database Connectivity의 약자로 자바를 이용하여 데이터베이스에 접근하여 각종 SQL문을 수행할 수 있도록 하는 JAVA API 입니다.
