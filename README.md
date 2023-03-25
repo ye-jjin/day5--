@@ -5,6 +5,9 @@
 
 1. 프로젝트 구성
 
+<img src="https://user-images.githubusercontent.com/122597068/227713046-75e7ecfd-693c-4ee6-a6c5-f9515e87183f.png" width="70%" height="300">
+
+
 | 프로젝트 구조 | 설명 |
 | --- | --- |
 | src/main/java | 자바의 클래스 파일을 저장하는 공간 |
@@ -33,6 +36,8 @@
 ---
 
 ### JDBC (ojdbc8.jar 버전) 사용
+
+<img src="https://user-images.githubusercontent.com/122597068/227713069-3ab4ab0e-c897-4b74-ae02-422cbd8721a6.png" width="70%" height="300">
 
 
 1. JDBC란?
@@ -353,11 +358,14 @@ create table tbl_people(
 2. 수행 결과
 - csv file
 
+<img src="https://user-images.githubusercontent.com/122597068/227713107-e45e7ccc-d1ec-45a5-be19-024269a04873.png" width="70%" height="300">
 
 
 - insert 결과
 
+<img src="https://user-images.githubusercontent.com/122597068/227713145-b3a12482-86dd-4267-91fa-fd74a1eb6aab.png" width="70%" height="300">
 
 
 - select 결과
 
+<img src="https://user-images.githubusercontent.com/122597068/227713169-170a5e2e-fd08-4645-b6f3-05e05bcebc02.png" width="70%" height="300">
