@@ -5,6 +5,9 @@
 
 1. 프로젝트 구성
 
+<br>
+<br>
+
 <img src="https://user-images.githubusercontent.com/122597068/227713046-75e7ecfd-693c-4ee6-a6c5-f9515e87183f.png" width="50%" height="300">
 
 <br>
