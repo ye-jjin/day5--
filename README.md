@@ -2,7 +2,6 @@
 
 ### 프로젝트 구조
 
-![프로젝트 구성.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c6273d5-c60e-4cc6-8cd5-74c64a5dc62d/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B5%AC%EC%84%B1.png)
 
 1. 프로젝트 구성
 
@@ -13,10 +12,14 @@
 | Maven Dependencies | pom.xml에 설정한 라이브러리를 확인할 수 있는 공간 |
 | src 폴더 | img, html, css, javascript 파일을 저장하는 공간 |
 | pom.xml | 라이브러리 다운을 받기 위한 설정 공간 |
+
+<br>
+<br>
+
 - Maven은 라이브러리를 관리하고 프로젝트를 빌드하는 도구입니다.
 - 사용하는 라이브러리가 많아질수록 관리의 필요성이 생기는데, Maven 프로젝트에서는 특정 문서(pom.xml)에 사용할 라이브러리 정의하면 네트워크를 통해 자동으로 다운 받아 줍니다.
 
-1. 자바 클래스 구성
+2. 자바 클래스 구성
 
 | 클래스 파일 | 설명 |
 | --- | --- |
@@ -24,11 +27,13 @@
 | PeopleVo.java | 계층 간에 데이터 교환을 위한 객체 |
 | ReadBuffer.java | csv file의 data 접근과 insert / select 메소드 호출  |
 
+<br>
+<br>
+
 ---
 
 ### JDBC (ojdbc8.jar 버전) 사용
 
-![jdbc설명.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26e894e7-d965-4f2a-b630-5a4303b16c20/jdbc%EC%84%A4%EB%AA%85.png)
 
 1. JDBC란?
 - Java Database Connectivity의 약자로 자바를 이용하여 데이터베이스에 접근하여 각종 SQL문을 수행할 수 있도록 하는 JAVA API 입니다.
@@ -39,11 +44,17 @@
     | --- | --- |
     | JDBC 인터페이스 | java.sql.Connection(연결) / java.sql.Statement(SQL을 담을 내용) / java.sql.ResultSet(SQL 요청 응답) |
     | JDBC 드라이버 | DB와의 통신을 담당하는 인터페이스 |
+    
+<br>
+<br>    
 
-1. JDBC의 동작 흐름 
+2. JDBC의 동작 흐름 
 - 응용 프로그램에서는 SQL문을 만들어 JDBC 인터페이스를 통해 전송하면 실제 구현 클래스인 JDBC 드라이버에서 DBMS에 접속을 시도하여 SQL문을 전송하게 됩니다.
 - DBMS의 결과는 JDBC 드라이버와 JDBC 인터페이스에 전달되고, 이를 다시 응용 프로그램으로 전달되어 SQL문의 결과를 볼 수 있습니다.
 - 이처럼 JDBC는 Application과 DBMS의 중간 다리 역할을 수행합니다.
+
+<br>
+<br>
 
 ---
 
@@ -327,14 +338,14 @@ create table tbl_people(
 );
 ```
 
-1. 수행 결과
+2. 수행 결과
 - csv file
 
-![csv 파일.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac53f055-1381-4c65-9ed5-fea15e0cc6a8/csv_%ED%8C%8C%EC%9D%BC.png)
+
 
 - insert 결과
 
-![table insert.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06c6ff1d-d14e-4730-8657-f02ab793d348/table_insert.png)
+
 
 - select 결과
-![selectAll.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf2fa2cb-eb4d-472e-afae-8bb724ceb9d9/selectAll.png)
+
